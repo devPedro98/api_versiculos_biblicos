@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--fdwtx=0##+d)$o@s*ovbm9yo863)4)f()v3r81&+c2=gldo)q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://versiculos-biblicos.herokuapp.com/']
 
