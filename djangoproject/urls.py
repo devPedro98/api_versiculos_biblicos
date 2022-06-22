@@ -25,8 +25,8 @@ router.register(r'biblia', bibliaviewsets.BibliaViewSet, basename="Biblia")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('token/', TokenObtainPairView.as_view()),
-    path('token/refresh/', TokenRefreshView.as_view()),
+    path('login/', TokenObtainPairView.as_view()),
+    path('login/refresh/', TokenRefreshView.as_view()),
     path('', include(router.urls)),
 
 ]
