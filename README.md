@@ -16,7 +16,7 @@ Faça uma requisição do tipo POST no Link https://versiculos-biblicos.herokuap
 Após o login feito basta copiar o token gerado no campo "access" conforme mostra a imagem
 ![image](https://user-images.githubusercontent.com/99411247/175166801-bdbad805-0e0c-459e-b547-1e79be09b752.png)
 
-Login feito e token gerado, você está pronto para fazer às requisições do tipo GET, POST, PUT e DELETE.
+Login feito e token gerado, através da url https://versiculos-biblicos.herokuapp.com/biblia/ você está pronto para fazer às requisições do tipo GET, POST, PUT e DELETE.
 
 Basta copiar o token e colar nas requisições desejadas, segue exemplo com o tipo GET:
 ![image](https://user-images.githubusercontent.com/99411247/175167045-f69be4cb-5470-4a01-80ee-7a3994f6be27.png)
